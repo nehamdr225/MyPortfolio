@@ -3,16 +3,16 @@ import './style.css';
 
 /**
 * @author
-* @function UI
+* @function Card
 **/
 
-const UI = (props) => {
+const Card = (props) => {
   return(
     <div className="card">
-    Hello World
+        {props.children}
     </div>
    )
 
  }
 
-export default UI
+export default Card
